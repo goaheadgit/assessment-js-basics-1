@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = "Git is a repository of code snapshots made during the process of coding. It is intended to track changes, especially among collaborative projects."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = "GitHub is an online storage space for git repositories. Multiple people can push and pull from these repositories."
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -25,7 +25,7 @@
     It should be a string containing your best definition of what 'git init' does.
 */
 
-//CODE HERE
+gitInitDefinition = "gitInit is a command that creates a new git repository."
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -33,7 +33,7 @@
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+gitCloneDefinition = "gitClone is a command that creates an exact copy of an existing repository."
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -41,7 +41,7 @@
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+gitStatusDefinition = "gitStatus is a command that shows changes since the last commit to the git repository--what changes have been made since the last push, which changes are staged, etc."
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,7 +52,8 @@
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+let gitAddDefinition = "gitAdd is a command that adds changes since the last push in a repository to the staging area, preparing them for the next commit."
+let gitAddCode = "git add --all"
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -63,8 +64,8 @@
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-//CODE HERE
-
+gitCommitDefinition = "gitCommit is a command that creates a snapshot of your current repository."
+gitCommitCode = "git commit -m 'initial commit'"
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -72,4 +73,4 @@
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+gitPushDefinition = "gitPush is a command that pushes the current local repository to an remote repository."
